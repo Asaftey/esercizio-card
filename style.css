@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    margin: 20px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    background: -webkit-linear-gradient(bottom, #F5F5F5, #787675);
+    background: -moz-linear-gradient(bottom, #F5F5F5, #787675);
+    background: linear-gradient(to top, #F5F5F5, #787675);
+    width: 300px;
+    height: 500px;
+    box-shadow: #787675;
+}
+
+.imagine img {
+    width: 300px;
+    height: 300px;
+}
+
+.utente-img {
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.utente {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.utente-spazio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.commenti img {
+    width: 24px;
+    margin-top: 0.5rem;
+}
+
+.paragrafo {
+    display: flex;
+    padding: 0.3rem;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#data-utente {
+    color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.utente-nome h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
